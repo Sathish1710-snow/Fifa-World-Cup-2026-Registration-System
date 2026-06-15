@@ -4,33 +4,45 @@ Developed a ServiceNow registration system with automated approvals, task creati
 FIFA World Cup 2026 – Football Tournament Registration System
 
 Overview:
+
 This project is designed to automate the player/team registration process using ServiceNow. Users can submit registration requests through the Service Catalog, and the system handles approvals, task creation, and notifications seamlessly.
 
 Key Features Implemented:
-1. Service Catalog Item
+
+1. Service Catalog Item:
+
 Created a catalog item for tournament registration
+
 Captured details like participant name, team, and contact information
 
-2. Flow Designer Automation
+2. Flow Designer Automation:
+   
 Triggered automatically when a request is raised
+
 Implemented approval workflow using Ask for Approval action
 
-3. Approval Logic
+3. Approval Logic:
+   
 3.1 If the request is Approved:
 Catalog task is created for further processing
 Confirmation email is sent
 Request status updated accordingly
+
 3.2 If the request is Rejected:
 Notification email is sent to the requester
 Request is updated as rejected
 
-4. Email Notifications
+4. Email Notifications:
+   
 Automated email communication for both approval and rejection scenarios
 
 Learning Outcomes:
 Gained practical experience in Flow Designer
+
 Understood Approval Workflows in ServiceNow
+
 Worked with Service Catalog & Request Management
+
 Improved knowledge of process automation and conditional logic
 
 
